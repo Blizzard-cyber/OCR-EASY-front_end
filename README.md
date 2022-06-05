@@ -2,7 +2,7 @@
 
 > Keep study! Keep enthusiasm!
 >
-> [后端部分 Click Here]: https://github.com/Blizzard-cyber/OCR-EASY-front_end
+> [后端部分 Click Here]（https://github.com/Blizzard-cyber/OCR-EASY-front_end）
 
 ## 项目介绍：
 
