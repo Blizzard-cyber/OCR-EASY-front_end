@@ -37,7 +37,9 @@ export default {
     return {
       fileList: [],
       Imgresult: [
-        { },
+        {
+          
+        },
       ],
       id: [],
     };

@@ -1,11 +1,11 @@
 <template>
-  <el-steps :active="6" align-center>
+  <el-steps :active="5" align-center>
   <el-step title="上传图片" icon="el-icon-upload"></el-step>
   <el-step title="图像灰度化" icon="el-icon-brush"></el-step>
   <el-step title="图像二值化" icon="el-icon-film"></el-step>
   <el-step title="图像形态学处理" icon="el-icon-magic-stick"></el-step>
-  <el-step title="图像平滑处理" icon="el-icon-c-scale-to-original"></el-step>
-  <el-step title="图像位或操作" icon="el-icon-coin"></el-step>
+  <el-step title="对灰度图平滑处理" icon="el-icon-printer"></el-step>
+  <el-step title="平滑后图像与形态学处理后图像进行位或操作" icon="el-icon-printer"></el-step>
   <el-step title="OCR识别" icon="el-icon-printer"></el-step>
 </el-steps>
 </template>

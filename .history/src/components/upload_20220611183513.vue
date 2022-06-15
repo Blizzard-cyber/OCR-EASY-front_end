@@ -1,6 +1,5 @@
 <template>
 <div class="'upload'">
-  <div class="'upload-button'">
   <el-upload
     class="upload-img"
     ref="upload"
@@ -14,16 +13,15 @@
     list-type="picture"
   >
     <el-button size="small" type="primary">点击上传</el-button>
+    <!-- <el-button style="margin-left: 10px;" size="small" @click="getresult">获取结果</el-button> -->
     <div slot="tip" class="el-upload__tip">
-      只能上传jpg文件，且不超过4MB
+      只能上传jpg文件，且不超过1MB
     </div>
   </el-upload>
-  </div>
   <div class="upload-result">
-    <el-button style="margin-left: 650px;margin-top: 20px;" size="small" 
-            type="primary" @click="getresult">获取结果</el-button>
+    <el-button style="margin-left: 650px;margin-top: 20px;" size="small" type="primary" @click="getresult">获取结果</el-button>
     <div slot="tip" class="el-upload__tip">
-      请等待出现文件上传成功提示后再获取，否则结果可能为空
+      请等待5-10s后再获取结果，否则结果可能为空
     </div>
   </div>
 </div>
@@ -37,7 +35,9 @@ export default {
     return {
       fileList: [],
       Imgresult: [
-        { },
+        {
+          
+        },
       ],
       id: [],
     };
@@ -91,8 +91,10 @@ export default {
 
 <style  scoped>
 .upload{
+  display: flex;
+  flex-direction: column;
   margin-top: 50px;
-
+  float: left;
 
 }
 .el-upload {
@@ -108,5 +110,4 @@ export default {
   text-indent: -100px;
   margin-left:0%
 }
-
 </style>

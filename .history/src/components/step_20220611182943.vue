@@ -5,7 +5,7 @@
   <el-step title="图像二值化" icon="el-icon-film"></el-step>
   <el-step title="图像形态学处理" icon="el-icon-magic-stick"></el-step>
   <el-step title="图像平滑处理" icon="el-icon-c-scale-to-original"></el-step>
-  <el-step title="图像位或操作" icon="el-icon-coin"></el-step>
+  <el-step title="图像位或操作" icon="el-icon-printer"></el-step>
   <el-step title="OCR识别" icon="el-icon-printer"></el-step>
 </el-steps>
 </template>

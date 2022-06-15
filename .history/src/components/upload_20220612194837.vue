@@ -14,14 +14,14 @@
     list-type="picture"
   >
     <el-button size="small" type="primary">点击上传</el-button>
+    <!-- <el-button style="margin-left: 10px;" size="small" @click="getresult">获取结果</el-button> -->
     <div slot="tip" class="el-upload__tip">
       只能上传jpg文件，且不超过4MB
     </div>
   </el-upload>
   </div>
   <div class="upload-result">
-    <el-button style="margin-left: 650px;margin-top: 20px;" size="small" 
-            type="primary" @click="getresult">获取结果</el-button>
+    <el-button style="margin-left: 650px;margin-top: 20px;" size="small" type="primary" @click="getresult">获取结果</el-button>
     <div slot="tip" class="el-upload__tip">
       请等待出现文件上传成功提示后再获取，否则结果可能为空
     </div>
@@ -37,7 +37,9 @@ export default {
     return {
       fileList: [],
       Imgresult: [
-        { },
+        {
+          
+        },
       ],
       id: [],
     };
